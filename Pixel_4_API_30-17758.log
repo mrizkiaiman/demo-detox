@@ -1,0 +1,371 @@
+emulator: autoconfig: -skin pixel_4
+emulator: autoconfig: -skindir /Users/mrizkiaiman/Library/Android/sdk/skins/
+emulator: autoconfig: -kernel /Users/mrizkiaiman/Library/Android/sdk/system-images/android-30/google_apis_playstore/x86//kernel-ranchu-64
+emulator: Target arch = 'x86'
+emulator: Auto-config: -qemu -cpu qemu32
+emulator: Auto-detect: Kernel image requires new device naming scheme.
+emulator: Auto-detect: Kernel does not support YAFFS2 partitions.
+emulator: autoconfig: -ramdisk /Users/mrizkiaiman/Library/Android/sdk/system-images/android-30/google_apis_playstore/x86//ramdisk.img
+emulator: Using initial system image: /Users/mrizkiaiman/Library/Android/sdk/system-images/android-30/google_apis_playstore/x86//system.img
+emulator: Using initial vendor image: /Users/mrizkiaiman/Library/Android/sdk/system-images/android-30/google_apis_playstore/x86//vendor.img
+emulator: autoconfig: -data /Users/mrizkiaiman/.android/avd/Pixel_4_API_30.avd/userdata-qemu.img
+emulator: autoconfig: -initdata /Users/mrizkiaiman/.android/avd/Pixel_4_API_30.avd/userdata.img
+emulator: autoconfig: -cache /Users/mrizkiaiman/.android/avd/Pixel_4_API_30.avd/cache.img
+emulator: autoconfig: -sdcard /Users/mrizkiaiman/.android/avd/Pixel_4_API_30.avd/sdcard.img
+emulator: Increasing RAM size to 2048MB
+emulator: VM heap size 256MB is below hardware specified minimum of 512MB,setting it to that value
+emulator: System image is read only
+emulator: Found 1 DNS servers: 8.8.8.8
+emulator: VERBOSE: FeatureControlImpl.cpp:172: WARNING: unexpected system image feature string, emulator might not function correctly, please try updating the emulator.
+
+emulator: VERBOSE: FeatureControlImpl.cpp:175: Unexpected feature list:
+
+emulator: VERBOSE: FeatureControlImpl.cpp:177: Vulkan
+emulator: VERBOSE: FeatureControlImpl.cpp:179: 
+
+emulator: trying to load skin file '/Users/mrizkiaiman/Library/Android/sdk/skins//pixel_4/layout'
+emulator: registered 'boot-properties' qemud service
+emulator: Adding boot property: 'qemu.cmdline' = 'androidboot.logcat=v:* androidboot.consolepipe=qemu_pipe,pipe:logcat'
+emulator: Adding boot property: 'qemu.logcat' = 'start'
+emulator: Requested console port 17758: Inferring adb port 17759.
+emulator: CPU Acceleration: working
+emulator: CPU Acceleration status: Hypervisor.Framework OS X Version 10.16
+emulator: GPU emulation enabled using 'host' mode
+emulator: Initializing hardware OpenGLES emulation support
+emulator: VERBOSE: MultiDisplay.cpp:307: create display 0
+emulator: VERBOSE: MultiDisplay.cpp:396: setDisplayPose 0 x 0 y 0 w 1080 h 2280 dpi 0
+emulator: Found 1 DNS servers: 8.8.8.8
+Content of hardware configuration file:
+  hw.cpu.arch = x86
+  hw.cpu.model = qemu32
+  hw.cpu.ncore = 3
+  hw.ramSize = 2048
+  hw.screen = multi-touch
+  hw.mainKeys = false
+  hw.trackBall = false
+  hw.keyboard = true
+  hw.keyboard.lid = false
+  hw.keyboard.charmap = qwerty2
+  hw.dPad = false
+  hw.rotaryInput = false
+  hw.gsmModem = true
+  hw.gps = true
+  hw.battery = true
+  hw.accelerometer = true
+  hw.gyroscope = true
+  hw.audioInput = true
+  hw.audioOutput = true
+  hw.sdCard = true
+  hw.sdCard.path = /Users/mrizkiaiman/.android/avd/Pixel_4_API_30.avd/sdcard.img
+  disk.cachePartition = true
+  disk.cachePartition.path = /Users/mrizkiaiman/.android/avd/Pixel_4_API_30.avd/cache.img
+  disk.cachePartition.size = 66m
+  test.quitAfterBootTimeOut = -1
+  test.delayAdbTillBootComplete = 0
+  test.monitorAdb = 0
+  hw.lcd.width = 1080
+  hw.lcd.height = 2280
+  hw.lcd.depth = 16
+  hw.lcd.density = 440
+  hw.lcd.backlight = true
+  hw.lcd.vsync = 60
+  hw.gltransport = pipe
+  hw.gltransport.asg.writeBufferSize = 1048576
+  hw.gltransport.asg.writeStepSize = 4096
+  hw.gltransport.asg.dataRingSize = 32768
+  hw.gltransport.drawFlushInterval = 800
+  hw.displayRegion.0.1.xOffset = -1
+  hw.displayRegion.0.1.yOffset = -1
+  hw.displayRegion.0.1.width = 0
+  hw.displayRegion.0.1.height = 0
+  hw.displayRegion.0.2.xOffset = -1
+  hw.displayRegion.0.2.yOffset = -1
+  hw.displayRegion.0.2.width = 0
+  hw.displayRegion.0.2.height = 0
+  hw.displayRegion.0.3.xOffset = -1
+  hw.displayRegion.0.3.yOffset = -1
+  hw.displayRegion.0.3.width = 0
+  hw.displayRegion.0.3.height = 0
+  hw.display1.width = 0
+  hw.display1.height = 0
+  hw.display1.density = 0
+  hw.display1.xOffset = -1
+  hw.display1.yOffset = -1
+  hw.display1.flag = 0
+  hw.display2.width = 0
+  hw.display2.height = 0
+  hw.display2.density = 0
+  hw.display2.xOffset = -1
+  hw.display2.yOffset = -1
+  hw.display2.flag = 0
+  hw.display3.width = 0
+  hw.display3.height = 0
+  hw.display3.density = 0
+  hw.display3.xOffset = -1
+  hw.display3.yOffset = -1
+  hw.display3.flag = 0
+  hw.gpu.enabled = true
+  hw.gpu.mode = host
+  hw.initialOrientation = Portrait
+  hw.camera.back = virtualscene
+  hw.camera.front = emulated
+  vm.heapSize = 512
+  hw.sensors.light = true
+  hw.sensors.pressure = true
+  hw.sensors.humidity = true
+  hw.sensors.proximity = true
+  hw.sensors.magnetic_field = true
+  hw.sensors.magnetic_field_uncalibrated = true
+  hw.sensors.gyroscope_uncalibrated = true
+  hw.sensors.orientation = true
+  hw.sensors.temperature = true
+  hw.sensor.hinge = true
+  hw.sensor.hinge.count = 0
+  hw.sensor.hinge.type = 0
+  hw.sensor.hinge.sub_type = 0
+  hw.sensor.hinge.fold_to_displayRegion.0.1_at_posture = 1
+  hw.sensor.roll = false
+  hw.sensor.roll.count = 0
+  hw.sensor.roll.resize_to_displayRegion.0.1_at_posture = 6
+  hw.sensor.roll.resize_to_displayRegion.0.2_at_posture = 6
+  hw.sensor.roll.resize_to_displayRegion.0.3_at_posture = 6
+  hw.useext4 = true
+  hw.arc = false
+  hw.arc.autologin = false
+  kernel.path = /Users/mrizkiaiman/Library/Android/sdk/system-images/android-30/google_apis_playstore/x86//kernel-ranchu-64
+  kernel.newDeviceNaming = yes
+  kernel.supportsYaffs2 = no
+  disk.ramdisk.path = /Users/mrizkiaiman/Library/Android/sdk/system-images/android-30/google_apis_playstore/x86//ramdisk.img
+  disk.systemPartition.initPath = /Users/mrizkiaiman/Library/Android/sdk/system-images/android-30/google_apis_playstore/x86//system.img
+  disk.systemPartition.size = 2331m
+  disk.vendorPartition.initPath = /Users/mrizkiaiman/Library/Android/sdk/system-images/android-30/google_apis_playstore/x86//vendor.img
+  disk.vendorPartition.size = 800m
+  disk.dataPartition.path = /Users/mrizkiaiman/.android/avd/Pixel_4_API_30.avd/userdata-qemu.img
+  disk.dataPartition.size = 6g
+  disk.encryptionKeyPartition.path = /Users/mrizkiaiman/.android/avd/Pixel_4_API_30.avd/encryptionkey.img
+  PlayStore.enabled = true
+  avd.name = Pixel_4_API_30
+  avd.id = Pixel_4_API_30
+  fastboot.forceColdBoot = false
+  android.sdk.root = /Users/mrizkiaiman/Library/Android/sdk
+  android.avd.home = /Users/mrizkiaiman/.android/avd
+.
+QEMU options list:
+emulator: argv[00] = "/Users/mrizkiaiman/Library/Android/sdk/emulator/qemu/darwin-x86_64/qemu-system-x86_64"
+emulator: argv[01] = "-dns-server"
+emulator: argv[02] = "8.8.8.8"
+emulator: argv[03] = "-no-audio"
+emulator: argv[04] = "-serial"
+emulator: argv[05] = "null"
+emulator: argv[06] = "-android-ports"
+emulator: argv[07] = "17758,17759"
+emulator: argv[08] = "-device"
+emulator: argv[09] = "goldfish_pstore,addr=0xff018000,size=0x10000,file=/Users/mrizkiaiman/.android/avd/Pixel_4_API_30.avd/data/misc/pstore/pstore.bin"
+emulator: argv[10] = "-cpu"
+emulator: argv[11] = "android64"
+emulator: argv[12] = "-enable-hvf"
+emulator: argv[13] = "-smp"
+emulator: argv[14] = "cores=3"
+emulator: argv[15] = "-m"
+emulator: argv[16] = "2048"
+emulator: argv[17] = "-lcd-density"
+emulator: argv[18] = "440"
+emulator: argv[19] = "-nodefaults"
+emulator: argv[20] = "-kernel"
+emulator: argv[21] = "/Users/mrizkiaiman/Library/Android/sdk/system-images/android-30/google_apis_playstore/x86//kernel-ranchu-64"
+emulator: argv[22] = "-initrd"
+emulator: argv[23] = "/Users/mrizkiaiman/Library/Android/sdk/system-images/android-30/google_apis_playstore/x86//ramdisk.img"
+emulator: argv[24] = "-drive"
+emulator: argv[25] = "if=none,index=0,id=system,if=none,file=/Users/mrizkiaiman/Library/Android/sdk/system-images/android-30/google_apis_playstore/x86//system.img,read-only"
+emulator: argv[26] = "-device"
+emulator: argv[27] = "virtio-blk-pci,drive=system,modern-pio-notify"
+emulator: argv[28] = "-drive"
+emulator: argv[29] = "if=none,index=1,id=cache,if=none,file=/Users/mrizkiaiman/.android/avd/Pixel_4_API_30.avd/cache.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576"
+emulator: argv[30] = "-device"
+emulator: argv[31] = "virtio-blk-pci,drive=cache,modern-pio-notify"
+emulator: argv[32] = "-drive"
+emulator: argv[33] = "if=none,index=2,id=userdata,if=none,file=/Users/mrizkiaiman/.android/avd/Pixel_4_API_30.avd/userdata-qemu.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576"
+emulator: argv[34] = "-device"
+emulator: argv[35] = "virtio-blk-pci,drive=userdata,modern-pio-notify"
+emulator: argv[36] = "-drive"
+emulator: argv[37] = "if=none,index=3,id=encrypt,if=none,file=/Users/mrizkiaiman/.android/avd/Pixel_4_API_30.avd/encryptionkey.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576"
+emulator: argv[38] = "-device"
+emulator: argv[39] = "virtio-blk-pci,drive=encrypt,modern-pio-notify"
+emulator: argv[40] = "-drive"
+emulator: argv[41] = "if=none,index=4,id=vendor,if=none,file=/Users/mrizkiaiman/Library/Android/sdk/system-images/android-30/google_apis_playstore/x86//vendor.img,read-only"
+emulator: argv[42] = "-device"
+emulator: argv[43] = "virtio-blk-pci,drive=vendor,modern-pio-notify"
+emulator: argv[44] = "-drive"
+emulator: argv[45] = "if=none,index=5,id=sdcard,if=none,file=/Users/mrizkiaiman/.android/avd/Pixel_4_API_30.avd/sdcard.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576"
+emulator: argv[46] = "-device"
+emulator: argv[47] = "virtio-blk-pci,drive=sdcard,modern-pio-notify"
+emulator: argv[48] = "-netdev"
+emulator: argv[49] = "user,id=mynet"
+emulator: argv[50] = "-device"
+emulator: argv[51] = "virtio-net-pci,netdev=mynet"
+emulator: argv[52] = "-device"
+emulator: argv[53] = "virtio-rng-pci"
+emulator: argv[54] = "-show-cursor"
+emulator: argv[55] = "-device"
+emulator: argv[56] = "virtio_input_multi_touch_pci_1"
+emulator: argv[57] = "-device"
+emulator: argv[58] = "virtio_input_multi_touch_pci_2"
+emulator: argv[59] = "-device"
+emulator: argv[60] = "virtio_input_multi_touch_pci_3"
+emulator: argv[61] = "-device"
+emulator: argv[62] = "virtio_input_multi_touch_pci_4"
+emulator: argv[63] = "-device"
+emulator: argv[64] = "virtio_input_multi_touch_pci_5"
+emulator: argv[65] = "-device"
+emulator: argv[66] = "virtio_input_multi_touch_pci_6"
+emulator: argv[67] = "-device"
+emulator: argv[68] = "virtio_input_multi_touch_pci_7"
+emulator: argv[69] = "-device"
+emulator: argv[70] = "virtio_input_multi_touch_pci_8"
+emulator: argv[71] = "-device"
+emulator: argv[72] = "virtio_input_multi_touch_pci_9"
+emulator: argv[73] = "-device"
+emulator: argv[74] = "virtio_input_multi_touch_pci_10"
+emulator: argv[75] = "-device"
+emulator: argv[76] = "virtio_input_multi_touch_pci_11"
+emulator: argv[77] = "-device"
+emulator: argv[78] = "virtio-keyboard-pci"
+emulator: argv[79] = "-L"
+emulator: argv[80] = "/Users/mrizkiaiman/Library/Android/sdk/emulator/lib/pc-bios"
+emulator: argv[81] = "-soundhw"
+emulator: argv[82] = "hda"
+emulator: argv[83] = "-vga"
+emulator: argv[84] = "none"
+emulator: argv[85] = "-append"
+emulator: argv[86] = "qemu=1 no_timer_check androidboot.hardware=ranchu androidboot.serialno=EMULATOR30X2X6X0 clocksource=pit android.qemud=1 console=0 android.checkjni=1 android.bootanim=0 qemu.gles=1 qemu.settings.system.screen_off_timeout=2147483647 qemu.encrypt=1 qemu.vsync=60 qemu.gltransport=pipe qemu.gltransport.drawFlushInterval=800 qemu.opengles.version=196608 qemu.uirenderer=skiagl cma=294M@0-4G qemu.wifi=1 mac80211_hwsim.channels=2 loop.max_part=7 androidboot.vbmeta.size=6144 androidboot.vbmeta.hash_alg=sha256 androidboot.vbmeta.digest=25857a23ca496649ae6cb48216f3550520f596e03f8de9cd17fd18b308317287 androidboot.boot_devices=pci0000:00/0000:00:03.0 qemu.hwcodec.avcdec=2 qemu.hwcodec.vpxdec=2 ramoops.mem_address=0xff018000 ramoops.mem_size=0x10000 memmap=0x10000$0xff018000 qemu.dalvik.vm.heapsize=512m qemu.camera_protocol_ver=1"
+emulator: argv[87] = "-android-hw"
+emulator: argv[88] = "/Users/mrizkiaiman/.android/avd/Pixel_4_API_30.avd/hardware-qemu.ini"
+Concatenated QEMU options:
+ /Users/mrizkiaiman/Library/Android/sdk/emulator/qemu/darwin-x86_64/qemu-system-x86_64 -dns-server 8.8.8.8 -no-audio -serial null -android-ports 17758,17759 -device goldfish_pstore,addr=0xff018000,size=0x10000,file=/Users/mrizkiaiman/.android/avd/Pixel_4_API_30.avd/data/misc/pstore/pstore.bin -cpu android64 -enable-hvf -smp cores=3 -m 2048 -lcd-density 440 -nodefaults -kernel /Users/mrizkiaiman/Library/Android/sdk/system-images/android-30/google_apis_playstore/x86//kernel-ranchu-64 -initrd /Users/mrizkiaiman/Library/Android/sdk/system-images/android-30/google_apis_playstore/x86//ramdisk.img -drive if=none,index=0,id=system,if=none,file=/Users/mrizkiaiman/Library/Android/sdk/system-images/android-30/google_apis_playstore/x86//system.img,read-only -device virtio-blk-pci,drive=system,modern-pio-notify -drive if=none,index=1,id=cache,if=none,file=/Users/mrizkiaiman/.android/avd/Pixel_4_API_30.avd/cache.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576 -device virtio-blk-pci,drive=cache,modern-pio-notify -drive if=none,index=2,id=userdata,if=none,file=/Users/mrizkiaiman/.android/avd/Pixel_4_API_30.avd/userdata-qemu.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576 -device virtio-blk-pci,drive=userdata,modern-pio-notify -drive if=none,index=3,id=encrypt,if=none,file=/Users/mrizkiaiman/.android/avd/Pixel_4_API_30.avd/encryptionkey.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576 -device virtio-blk-pci,drive=encrypt,modern-pio-notify -drive if=none,index=4,id=vendor,if=none,file=/Users/mrizkiaiman/Library/Android/sdk/system-images/android-30/google_apis_playstore/x86//vendor.img,read-only -device virtio-blk-pci,drive=vendor,modern-pio-notify -drive if=none,index=5,id=sdcard,if=none,file=/Users/mrizkiaiman/.android/avd/Pixel_4_API_30.avd/sdcard.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576 -device virtio-blk-pci,drive=sdcard,modern-pio-notify -netdev user,id=mynet -device virtio-net-pci,netdev=mynet -device virtio-rng-pci -show-cursor -device virtio_input_multi_touch_pci_1 -device virtio_input_multi_touch_pci_2 -device virtio_input_multi_touch_pci_3 -device virtio_input_multi_touch_pci_4 -device virtio_input_multi_touch_pci_5 -device virtio_input_multi_touch_pci_6 -device virtio_input_multi_touch_pci_7 -device virtio_input_multi_touch_pci_8 -device virtio_input_multi_touch_pci_9 -device virtio_input_multi_touch_pci_10 -device virtio_input_multi_touch_pci_11 -device virtio-keyboard-pci -L /Users/mrizkiaiman/Library/Android/sdk/emulator/lib/pc-bios -soundhw hda -vga none -append 'qemu=1 no_timer_check androidboot.hardware=ranchu androidboot.serialno=EMULATOR30X2X6X0 clocksource=pit android.qemud=1 console=0 android.checkjni=1 android.bootanim=0 qemu.gles=1 qemu.settings.system.screen_off_timeout=2147483647 qemu.encrypt=1 qemu.vsync=60 qemu.gltransport=pipe qemu.gltransport.drawFlushInterval=800 qemu.opengles.version=196608 qemu.uirenderer=skiagl cma=294M@0-4G qemu.wifi=1 mac80211_hwsim.channels=2 loop.max_part=7 androidboot.vbmeta.size=6144 androidboot.vbmeta.hash_alg=sha256 androidboot.vbmeta.digest=25857a23ca496649ae6cb48216f3550520f596e03f8de9cd17fd18b308317287 androidboot.boot_devices=pci0000:00/0000:00:03.0 qemu.hwcodec.avcdec=2 qemu.hwcodec.vpxdec=2 ramoops.mem_address=0xff018000 ramoops.mem_size=0x10000 memmap=0x10000$0xff018000 qemu.dalvik.vm.heapsize=512m qemu.camera_protocol_ver=1' -android-hw /Users/mrizkiaiman/.android/avd/Pixel_4_API_30.avd/hardware-qemu.ini
+emulator: Android qemu version 30.2.6.0 (build_id 6962233) (CL:N/A)
+
+emulator: Starting QEMU main loop
+emulator: Adding boot property: 'ro.opengles.version' = '196608'
+emulator: Adding boot property: 'qemu.sf.fake_camera' = 'front'
+emulator: Adding boot property: 'qemu.adb.secure' = '1'
+emulator: Adding boot property: 'dalvik.vm.heapsize' = '512m'
+emulator: Adding boot property: 'qemu.hw.mainkeys' = '0'
+emulator: Adding boot property: 'qemu.sf.lcd_density' = '440'
+emulator: goldfish_events.have-dpad: false
+emulator: goldfish_events.have-trackball: false
+emulator: goldfish_events.have-camera: true
+emulator: goldfish_events.have-keyboard: false
+emulator: goldfish_events.have-lidswitch: false
+emulator: goldfish_events.have-tabletmode: false
+emulator: goldfish_events.have-touch: false
+emulator: goldfish_events.have-multitouch: false
+emulator: Adding boot property: 'net.wifi_mac_prefix' = '17758'
+emulator: WARNING: Requested adb port (17759) is outside the recommended range [5555,5586]. ADB may not function properly for the emulator. See -help-port for details.
+Not using any http proxy
+emulator: Adding boot property: 'qemu.timezone' = 'Asia/Jakarta'
+emulator: android_hw_fingerprint_init: fingerprint qemud listen service initialized
+
+emulator: emulator_window_fb_rotate
+
+emulator: VERBOSE: MultiDisplay.cpp:677: config multidisplay with config.ini 0x0 0x0 0x0
+emulator: No acpi ini file provided, using default
+
+emulator: VERBOSE: AdbInterface.cpp:385: Found: 3 adb executables
+emulator: VERBOSE: AdbInterface.cpp:387: Adb: /Users/mrizkiaiman/Library/Android/sdk/platform-tools/adb
+emulator: VERBOSE: AdbInterface.cpp:387: Adb: /Users/mrizkiaiman/Library/Android/sdk/platform-tools/adb
+emulator: VERBOSE: AdbInterface.cpp:387: Adb: /Users/mrizkiaiman/Library/Android/sdk/platform-tools/adb
+emulator: VERBOSE: AdbInterface.cpp:408: Path:/Users/mrizkiaiman/Library/Android/sdk/platform-tools/adb protocol version: 41
+emulator: VERBOSE: AdbInterface.cpp:408: Path:/Users/mrizkiaiman/Library/Android/sdk/platform-tools/adb protocol version: 41
+emulator: VERBOSE: AdbInterface.cpp:408: Path:/Users/mrizkiaiman/Library/Android/sdk/platform-tools/adb protocol version: 41
+emulator: No acpi ini file provided, using default
+
+emulator: _hwFingerprint_connect: connect finger print listen is called
+
+emulator: got message from guest system fingerprint HAL
+
+emulator: onGuestSendCommand: [0x7fa7a1022b50] Adb connected, start proxing data
+emulator: INFO: boot completed
+emulator: INFO: boot time 100675 ms
+emulator: Increasing screen off timeout, logcat buffer size to 2M.
+emulator: Revoking microphone permissions for Google App.
+emulator: VERBOSE: System.cpp:1572: Timed out with running command |/Users/mrizkiaiman/Library/Android/sdk/platform-tools/adb -s emulator-17758 shell settings put system screen_off_timeout 2147483647 |
+emulator: VERBOSE: System.cpp:1572: Timed out with running command |/Users/mrizkiaiman/Library/Android/sdk/platform-tools/adb -s emulator-17758 shell cmd overlay enable-exclusive --category com.android.internal.display.cutout.emulation.emu01 |
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: System.cpp:1572: Timed out with running command |/Users/mrizkiaiman/Library/Android/sdk/platform-tools/adb -s emulator-17758 shell cmd car_service -h | grep "inject-key" |
+emulator: ERROR: AdbHostServer.cpp:83: adb protocol fault (couldn't read status length)
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: MultiDisplay.cpp:171: getMultiDisplay 0x 0 y 0 w 1080 h 2280 dpi 0 flag 0 enable 1
+emulator: VERBOSE: System.cpp:1572: Timed out with running command |/Users/mrizkiaiman/Library/Android/sdk/platform-tools/adb -s emulator-17758 shell ps | grep "com.android.car.rotary" | awk '{print $9}' |
+emulator: VERBOSE: System.cpp:1572: Timed out with running command |/Users/mrizkiaiman/Library/Android/sdk/platform-tools/adb -s emulator-17758 shell cmd car_service -h | grep "inject-key" |
+emulator: VERBOSE: System.cpp:1572: Timed out with running command |/Users/mrizkiaiman/Library/Android/sdk/platform-tools/adb -s emulator-17758 shell cmd car_service -h | grep "inject-key" |
+emulator: VERBOSE: System.cpp:1572: Timed out with running command |/Users/mrizkiaiman/Library/Android/sdk/platform-tools/adb -s emulator-17758 shell ps | grep "com.android.car.rotary" | awk '{print $9}' |
+emulator: VERBOSE: System.cpp:1572: Timed out with running command |/Users/mrizkiaiman/Library/Android/sdk/platform-tools/adb -s emulator-17758 shell cmd car_service -h | grep "inject-key" |
+emulator: VERBOSE: System.cpp:1572: Timed out with running command |/Users/mrizkiaiman/Library/Android/sdk/platform-tools/adb -s emulator-17758 shell cmd car_service -h | grep "inject-key" |
+emulator: VERBOSE: System.cpp:1572: Timed out with running command |/Users/mrizkiaiman/Library/Android/sdk/platform-tools/adb -s emulator-17758 shell ps | grep "com.android.car.rotary" | awk '{print $9}' |
+emulator: VERBOSE: System.cpp:1572: Timed out with running command |/Users/mrizkiaiman/Library/Android/sdk/platform-tools/adb -s emulator-17758 shell cmd car_service -h | grep "inject-key" |
+emulator: Done with QEMU main loop
